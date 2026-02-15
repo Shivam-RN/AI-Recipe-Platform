@@ -1,15 +1,16 @@
-import { Button } from '@/components/ui/button'
-import React from 'react'
+import { Button } from "@/components/ui/button";
+import React from "react";
 
 const Home = () => {
   return (
-    <>
-      <div className="text-3xl font-bold underline">
-        hello
-      </div>
-      <Button variant='primary' size='xl'> Button </Button>
-    </>
-  )
-}
+    <div className="min-h-screen bg-stone-50 text-stone-900">
+      <section className="pt-32 pb-20 px-4">
+        <Button variant="primary" size="xl">
+          Button
+        </Button>
+      </section>
+    </div>
+  );
+};
 
-export default Home
+export default Home;
