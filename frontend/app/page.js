@@ -8,6 +8,7 @@ const Home = () => {
         <Button variant="primary" size="xl">
           Button
         </Button>
+        
       </section>
     </div>
   );
