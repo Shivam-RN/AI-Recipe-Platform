@@ -48,7 +48,7 @@ export default async function LandingPage() {
                 <Button
                   size="xl"
                   variant="primary"
-                  className="px-8 py-6 text-lg"
+                  className="px-8 py-6 text-lg cursor-pointer"
                 >
                   Start Cooking Free <ArrowRight className="ml-2 w-5 h-5" />
                 </Button>
@@ -61,7 +61,7 @@ export default async function LandingPage() {
             </div>
 
             {/* Hero Image */}
-            <Card className="relative aspect-square md:aspect-4/5 border-4 border-stone-900 bg-stone-200 overflow-hidden py-0">
+            <Card className="relative aspect-square md:aspect-4/5 border-4 border-stone-900 bg-stone-200 overflow-hidden py-0 ">
               <Image
                 src="/pasta-dish.png"
                 alt="Delicious pasta dish"
@@ -146,7 +146,7 @@ export default async function LandingPage() {
               return (
                 <Card
                   key={index}
-                  className="border-2 border-stone-200 bg-white hover:border-orange-600 hover:shadow-lg transition-all group py-0"
+                  className="border-2 border-stone-200 bg-white hover:border-orange-600 hover:shadow-lg transition-all group py-0 cursor-pointer"
                 >
                   <CardContent className="p-8">
                     <div className="flex justify-between items-start mb-6">

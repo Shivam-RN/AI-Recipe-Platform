@@ -17,7 +17,7 @@ const PricingSection = () => {
             elements:{
               drawerRoot:{
                 zIndex:2000
-              }
+              },
             }
           }
         }}/>

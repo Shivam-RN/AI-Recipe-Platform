@@ -17,13 +17,14 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <ClerkProvider appearance={{
+    <ClerkProvider
+      appearance={{
         theme: neobrutalism,
       }}
     >
       <html lang="en" suppressHydrationWarning>
         <body className={`${inter.className}`}>
-          <Header/>
+          <Header />
 
           <main className="min-h-screen">{children}</main>
 
@@ -33,10 +34,10 @@ export default function RootLayout({ children }) {
               <div className="flex items-center gap-3">
                 <Image
                   src="/logo.png"
-                  alt="Servd Logo"
-                  width={48}
-                  height={48}
-                  className="w-14"
+                  alt="CookItAI Logo"
+                  width={70}
+                  height={70}
+                  className="w-16"
                 />
               </div>
               <p className="text-stone-500 text-sm">
