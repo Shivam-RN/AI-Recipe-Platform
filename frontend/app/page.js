@@ -30,7 +30,7 @@ export default async function LandingPage() {
                 #1 AI Cooking Assistant
               </Badge>
 
-              <h1 className="text-6xl md:text-8xl font-bold mb-6 leading-[0.9] tracking-tight">
+              <h1 className="text-5xl md:text-8xl font-bold mb-6 leading-[0.9] tracking-tight">
                 Turn your{" "}
                 <span className="italic underline decoration-4 decoration-orange-600">
                   leftovers
@@ -39,7 +39,7 @@ export default async function LandingPage() {
                 masterpieces.
               </h1>
 
-              <p className="text-xl md:text-2xl text-stone-600 mb-10 max-w-lg mx-auto md:mx-0 font-light">
+              <p className="text-base sm:text-lg md:text-2xl text-stone-600 mb-10 max-w-lg mx-auto md:mx-0 font-light">
                 Snap a photo of your fridge. We&apos;ll tell you what to cook.
                 Save money, reduce waste, and eat better tonight.
               </p>
